@@ -1,0 +1,875 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Venky's Music Player</title>
+	<link rel="stylesheet" type="text/css" href="Styles.css">
+	<script src="https://kit.fontawesome.com/eb967e175e.js" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+</head>
+<body style="background-color: #0c1027;">
+	<!-- Header -->
+	<div class="header">
+		<img id="logo" src="media/Ninja Studio.jpg" alt="Ninjas">
+		<h3 class="font">Favourites</h3>
+		<form><i class="magnifier fa-solid fa-magnifying-glass fa-xs"></i>
+			<input id="search" type="text" placeholder="Search">
+			<i class="microphone fa-solid fa-microphone fa-sm"></i>
+		</form>
+		<span class="notification-bell">
+            <img src="media/bell.png">
+
+        </span>
+		<img id="ADMieola" src="media/ADMieola.jpg" alt="ADMieola">
+	</div>
+	<main>
+		
+		<div>
+ <!-- Queue ------------------------------------>
+
+			  <div clas="aside">
+				<div class="Queue-list-options">
+				<span><h1 id="Queue-font">Queue</h1></span>
+				<div >
+                            <label id="Queue" for="Queue-checkbox">Queue &nbsp<i class="fa-solid fa-chevron-down"></i></i></label>
+                            <input type="checkbox" id="Queue-checkbox">
+                            <div class="Queue-dropdown">
+                                <div class="Queue-drop-item">
+                                    <p><i class="fa-sharp fa-solid fa-icons"></i>&nbsp &nbsp playlist</p>
+                                </div>
+                                <hr>
+                                <div class="Queue-drop-item">
+                                    <p><i class="fa-solid fa-star"></i>&nbsp &nbsp Favourite Songs</p>
+                                </div>
+                            </div>
+                        </div>
+               		</div>
+			<aside>
+				<div>
+				<div class="Queue-list">
+					<span>01</span>
+					<span><img src="media/Queue/Midnights.jpg" alt="Midnights">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Midnights</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>02</span>
+					<span><img src="media/Queue/No Lie.jpg" alt="No Lie">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>No Lie</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>03</span>
+					<span><img src="media/Queue/Radio.jpg" alt="Radio">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Radio</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>04</span>
+					<span><img src="media/Queue/Perfect.jpg" alt="Perfect">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>		
+					</span>	
+					<span>
+						<p><b>Perfect</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>05</span>
+					<span><img src="media/Queue/Shape of You.jpg" alt="Shape of You">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Shape of You</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>06</span>
+					<span><img src="media/Queue/Unholy.jpg" alt="Unholy">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Unholy</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>07</span>
+					<span><img src="media/Queue/Two of Us.jpg" alt="Two of Us">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Two of Us</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				</div>
+						<div class="Queue-list">
+					<span>08</span>
+					<span><img src="media/Queue/Midnights.jpg" alt="Midnights">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Midnights</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>09</span>
+					<span><img src="media/Queue/No Lie.jpg" alt="No Lie">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>No Lie</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>10</span>
+					<span><img src="media/Queue/Radio.jpg" alt="Radio">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Radio</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>11</span>
+					<span><img src="media/Queue/Perfect.jpg" alt="Perfect">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>		
+					</span>	
+					<span>
+						<p><b>Perfect</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>12</span>
+					<span><img src="media/Queue/Shape of You.jpg" alt="Shape of You">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Shape of You</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>13</span>
+					<span><img src="media/Queue/Unholy.jpg" alt="Unholy">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Unholy</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>14</span>
+					<span><img src="media/Queue/Two of Us.jpg" alt="Two of Us">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Two of Us</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+						<div class="Queue-list">
+					<span>15</span>
+					<span><img src="media/Queue/Midnights.jpg" alt="Midnights">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Midnights</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>16</span>
+					<span><img src="media/Queue/No Lie.jpg" alt="No Lie">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>No Lie</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>17</span>
+					<span><img src="media/Queue/Radio.jpg" alt="Radio">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Radio</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>18</span>
+					<span><img src="media/Queue/Perfect.jpg" alt="Perfect">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>		
+					</span>	
+					<span>
+						<p><b>Perfect</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>19</span>
+					<span><img src="media/Queue/Shape of You.jpg" alt="Shape of You">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Shape of You</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>20</span>
+					<span><img src="media/Queue/Unholy.jpg" alt="Unholy">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Unholy</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>21</span>
+					<span><img src="media/Queue/Two of Us.jpg" alt="Two of Us">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Two of Us</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>22</span>
+					<span><img src="media/Queue/Shape of You.jpg" alt="Shape of You">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Shape of You</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>23</span>
+					<span><img src="media/Queue/Unholy.jpg" alt="Unholy">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Unholy</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>24</span>
+					<span><img src="media/Queue/Two of Us.jpg" alt="Two of Us">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Two of Us</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+						<div class="Queue-list">
+					<span>25</span>
+					<span><img src="media/Queue/Midnights.jpg" alt="Midnights">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Midnights</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>26</span>
+					<span><img src="media/Queue/No Lie.jpg" alt="No Lie">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>No Lie</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>27</span>
+					<span><img src="media/Queue/Radio.jpg" alt="Radio">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>	
+					</span>	
+					<span>
+						<p><b>Radio</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				<div class="Queue-list">
+					<span>28</span>
+					<span><img src="media/Queue/Perfect.jpg" alt="Perfect">
+					<span class="play-button-queue">
+                            	<i class="fa-solid fa-play"></i>
+                            </span>		
+					</span>	
+					<span>
+						<p><b>Perfect</b>
+							<br>Jan 19,2023</p>
+					</span>
+					<i class="fa-regular fa-heart heart"></i>
+					
+				</div>
+				</div>
+			</div>
+			</aside>
+		</div>
+  <!-- Trending Genres  ------------------------------------>
+			<div class="Genres">
+				<img src="media/Trending Genres/HIP HOP.jpeg" alt="HIP HOP">
+				<img src="media/Trending Genres/Weekend Zumba.jpeg" alt="Weekend Zumba">
+				<img src="media/Trending Genres/High on EDM.jpeg" alt="new in Edm">
+			</div>
+  <!-- Latest Release  ------------------------------------>
+			    <h3 class="font">Latest Release</h3> 
+			    <div class="latest-release">
+                <!-- <div class="latest-release-content"> -->
+                    <div class="card">
+                        <div>
+                            <img src="media/Latest Release/Naatu Naatu.jpg">
+                            <span class="play-button">
+                            	<i class="fa-solid fa-play fa-2xl"></i>
+                            </span>
+
+                        </div>
+                        <div class="song-description">
+                            <h3>
+                                Naatu Naatu
+                            </h3>
+                            <p>
+                                Jan, 2023
+                            </p>
+                        </div>
+                        <div class="options">
+                            <label for="latest-release-checkbox"><i class="fas fa-ellipsis-h"></i></label>
+                            <input type="checkbox" id="latest-release-checkbox">
+                            <div class="latest-release-dropdown">
+                                <div class="drop-item">
+                                    <p><i class="fa-solid fa-play"></i> &nbsp &nbsp<a href="Single Playlist Screen.html">Play
+                                            Now</a></p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fa-solid fa-plus"></i> &nbsp &nbsp Add to Queue</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fa-sharp fa-solid fa-icons"></i>&nbsp &nbsp Add to playlist</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fa-solid fa-circle-info"></i> &nbsp &nbsp Get Info</p>
+                                </div>
+                            </div>
+                            <p>
+                                3:35
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="media/Latest Release/Celestial.jpg">
+                            <span class="play-button">
+                            	<i class="fa-solid fa-play fa-2xl"></i>
+                            </span>
+                        </div>
+                        <div class="song-description">
+                            <h3>
+                              Celestial
+                            </h3>
+                            <p>
+                                Jan , 2023
+                            </p>
+                        </div>
+                        <div class="options">
+                            <label for="latest-release-checkbox2"><i class="fas fa-ellipsis-h"></i></label>
+                            <input type="checkbox" id="latest-release-checkbox2">
+                            <div class="latest-release-dropdown">
+                                <div class="drop-item">
+                                    <p><i class="fa-solid fa-play"></i> &nbsp &nbsp<a href="Single Playlist Screen.html">Play
+                                            Now</a></p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fa-solid fa-plus"></i> &nbsp &nbsp Add to Queue</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fa-sharp fa-solid fa-icons"></i>&nbsp &nbsp Add to playlist</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fa-solid fa-circle-info"></i> &nbsp &nbsp Get Info</p>
+                                </div>
+                            </div>
+                            <p>
+                                3:20
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="media/Latest Release/End Game.jpg">
+                            <span class="play-button">
+                            	<i class="fa-solid fa-play fa-2xl"></i>
+                            </span>
+                        </div>
+                        <div class="song-description">
+                            <h3>
+                                End Game
+                            </h3>
+                            <p>
+                                Jan, 2023
+                            </p>
+                        </div>
+                        <div class="options">
+                            <label for="latest-release-checkbox3"><i class="fas fa-ellipsis-h"></i></label>
+                            <input type="checkbox" id="latest-release-checkbox3">
+                            <div class="latest-release-dropdown">
+                                <div class="drop-item">
+                                    <p><i class="fa-solid fa-play"></i> &nbsp &nbsp<a href="Single Playlist Screen.html">Play
+                                            Now</a></p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fa-solid fa-plus"></i> &nbsp &nbsp Add to Queue</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fa-sharp fa-solid fa-icons"></i>&nbsp &nbsp Add to playlist</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fa-solid fa-circle-info"></i> &nbsp &nbsp Get Info</p>
+                                </div>
+                            </div>
+                            <p>
+                                3:02
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="media/Latest Release/Forget Me.jpg">
+                            <span class="play-button">
+                            	<i class="fa-solid fa-play fa-2xl"></i>
+                            </span>
+                        </div>
+                        <div class="song-description">
+                            <h3>
+                                Forget Me
+                            </h3>
+                            <p>
+                                Jan, 2023
+                            </p>
+                        </div>
+                        <div class="options">
+                            <label for="latest-release-checkbox4"><i class="fas fa-ellipsis-h"></i></label>
+                            <input type="checkbox" id="latest-release-checkbox4">
+                            <div class="latest-release-dropdown">
+                              
+                                <div class="drop-item">
+                                    <p><i class="fa-solid fa-play"></i> &nbsp &nbsp<a href="Single Playlist Screen.html">Play
+                                            Now</a></p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fa-solid fa-plus"></i> &nbsp &nbsp Add to Queue</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fa-sharp fa-solid fa-icons"></i>&nbsp &nbsp Add to playlist</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fa-solid fa-circle-info"></i> &nbsp &nbsp Get Info</p>
+                                </div>
+                            </div>
+                            <p>
+                                3:19
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+			<!-- Popular Artist	 ---------------------------------------------------------->
+			<div>
+				<h3 class="font">Popular Artist</h3>
+				<div class="Popular-Artist">
+					<div class="Artist-containers">
+						<div class="Artist-content">
+						<img src="media/Popular Artist/Anne-Marie.jpg" alt="Anne-Marie">
+						<span>Anne Marie</span>	
+						</div>
+					</div>
+					<div class="Artist-containers">
+						<div class="Artist-content">
+						<img src="media/Popular Artist/K.K.jpg" alt="K.K">
+						<span>K.K</span>		
+						</div>
+					</div>
+					<div class="Artist-containers">
+						<div class="Artist-content">
+						<img src="media/Popular Artist/ZAYN.jpg" alt="ZAYN">
+						<span>ZAYN</span>		
+						</div>
+					</div>
+					<div class="Artist-containers">
+						<div class="Artist-content">
+						<img src="media/Popular Artist/Ed_Sheeran.jpg" alt="Ed_Sheeran">
+						<span>Ed Sheeran</span>		
+						</div>
+					</div>
+					<div class="Artist-containers">
+						<div class="Artist-content">
+						<img src="media/Popular Artist/Sid sriram.jpg" alt="Sid sriram">
+						<span>Sid sriram</span>		
+						</div>
+					</div>
+					<div class="Artist-containers">
+						<div class="Artist-content">
+						<img src="media/Popular Artist/Fifth_Harmony.jpg" alt="Fifth_Harmony">
+						<span>Fifth Harmony</span>		
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Stations --------------------------------------------------------------->
+			<div>
+				<div class="stations">
+					<div class="stations-list single">
+					<img id="single" src="media/Stations/station.png" alt="Station">	
+					</div>
+					<div class="stations-list">
+					<img src="media/Stations/Love.jpg" alt="Love">
+					<span class="station-text">Love</span>	
+					</div>
+					<div class="stations-list">
+					<img src="media/Stations/Retro.jpg" alt="Retro">
+					<span class="station-text">Retro</span>	
+					</div>
+					<div class="stations-list">
+					<img src="media/Stations/Chill.jpg" alt="Chill">
+					<span class="station-text">Chill</span>	
+					</div>
+					<div class="stations-list">
+					<img src="media/Stations/Workout.jpg" alt="Workout">
+					<span class="station-text">Workout</span>		
+					</div>
+					<div class="stations-list">
+					<img src="media/Stations/Rock.jpg" alt="Rock">
+					<span class="station-text">Rock</span>		
+					</div>
+					<div class="stations-list">
+					<img src="media/Stations/Pop.jpg" alt="Pop">
+					<span class="station-text">Pop</span>		
+					</div>					
+				</div>
+			</div>
+			<!-- Mood --------------------------------------------------------------->
+			<div>
+				<div id="Mood">
+					<div class="Mood">
+					<img src="media/Mood/Party.jpg" alt="Party">	
+					<span class="Mood-text">Party</span>	
+					</div>
+					<div class="Mood">
+					<img src="media/Mood/Electronic.jpg" alt="Electronic">
+					<span class="Mood-text">Electronic</span>		
+					</div>
+					<div class="Mood">
+					<img src="media/Mood/Road Trip.jpg" alt="Road Trip">
+					<span class="Mood-text">Road Trip</span>		
+					</div>
+				</div>
+			</div>
+			<!-- Latest English --------------------------------------------------------------->
+			<div>
+				<h3 class="font">Latest English</h3>
+				<div id="latest-english-hindi">
+					<div class="latest-english-hindi-list">
+					<img src="media/Latest English/Faded.jpg" alt="Faded">
+					<span>
+						<p><b>Faded</b>
+							<br>Jan 19,2023</p>
+					</span>	
+					</div>
+					<div class="latest-english-hindi-list">
+					<img src="media/Latest English/Rockabye.jpg" alt="Rockabye">
+					<span>
+						<p><b>Rockabye</b>
+							<br>Jan 19,2023</p>
+					</span>		
+					</div>
+					<div class="latest-english-hindi-list">
+					<img src="media/Latest English/Let Me Love You.jpg" alt="Let Me Love You">
+					<span>
+						<p><b>Let Me Love You</b>
+							<br>Jan 19,2023</p>
+					</span>		
+					</div>
+					<div class="latest-english-hindi-list">
+					<img src="media/Latest English/On My Way.jpg" alt="On My Way">
+					<span>
+						<p><b>On My Way</b>
+							<br>Jan 19,2023</p>
+					</span>		
+					</div>
+					<div class="latest-english-hindi-list">
+					<img src="media/Latest English/Loser.jpg" alt="Loser">
+					<span>
+						<p><b>Lose</b>
+							<br>Jan 19,2023</p>
+					</span>		
+					</div>
+					<div class="latest-english-hindi-list">
+					<img src="media/Latest English/Unstoppable.jpg" alt="Unstoppable">
+					<span>
+						<p><b>Unstoppable</b>
+							<br>Jan 19,2023</p>
+					</span>		
+					</div>
+				</div>
+			</div>
+			<!-- Latest hindi --------------------------------------------------------------->
+			<div>
+				<h3 class="font">Latest Hindi</h3>
+				<div id="latest-english-hindi">
+					<div class="latest-english-hindi-list">
+					<img src="media/Latest Hindi/Boss Party.jpg" alt="Boss Party">
+					<span>
+						<p><b>Boss Party</b>
+							<br>Jan 19,2023</p>
+					</span>	
+					</div>
+					<div class="latest-english-hindi-list">
+					<img src="media/Latest Hindi/Ranjha.jpg" alt="Ranjha">
+					<span>
+						<p><b>Ranjha</b>
+							<br>Jan 19,2023</p>
+					</span>		
+					</div>
+					<div class="latest-english-hindi-list">
+					<img src="media/Latest Hindi/Dard.jpg" alt="Dard">
+					<span>
+						<p><b>Dard</b>
+							<br>Jan 19,2023</p>
+					</span>		
+					</div>
+					<div class="latest-english-hindi-list">
+					<img src="media/Latest Hindi/Srivalli.jpg" alt="Srivalli">
+					<span>
+						<p><b>Srivalli</b>
+							<br>Jan 19,2023</p>
+					</span>		
+					</div>
+					<div class="latest-english-hindi-list">
+					<img src="media/Latest Hindi/Chandni.jpg" alt="Chandni">
+					<span>
+						<p><b>Chandni</b>
+							<br>Jan 19,2023</p>
+					</span>		
+					</div>
+					<div class="latest-english-hindi-list">
+					<img src="media/Latest Hindi/O Sanam.jpg" alt="O Saname">
+					<span>
+						<p><b>O Sanam</b>
+							<br>Jan 19,2023</p>
+					</span>		
+					</div>
+				</div>
+			</div>
+			<!-- Latest English --------------------------------------------------------------->
+			<!-- footer music player......................-->
+				<div id="footer">
+					<div class="music-player">
+						<div id="song-description2">
+							<img src="media/Latest Release/Naatu Naatu.jpg" alt="Naatu Naatu">
+							<h3>
+                                Naatu Naatu
+                            </h3>
+							<span><i class="fa-solid fa-ban music"></i>
+							<i class="fa-regular fa-heart music1"></i>
+							</span>
+						</div>
+						<div class="player">
+							<div class="controls">
+								<div><i class="fas fa-random"></i></div>
+								<div><i class="fas fa-step-backward"></i></div>
+								<div><i class="fas fa-pause-circle"></i></div>
+								<div><i class="fas fa-step-forward"></i></div>
+								<div><i class="fas fa-redo"></i></div>
+							</div>
+							<!-- this is the slider -->
+							<div id="slider">
+								<!-- current time -->
+								<div class="time">
+									1:39
+								</div>
+								<div class="slidecontainer">
+									<input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+								</div>
+								<!-- total time -->
+								<div class="time">
+									4:44
+								</div>
+							</div>
+						</div>
+						<!-- other icons including the volume slider and all -->
+						<div class="music-icons">
+							<div>
+								<i class="fas fa-list-ul"></i>
+							</div>
+							<div>
+								<i class="fas fa-laptop"></i>
+							</div>
+							<div>
+								<i class="fas fa-volume-up"></i>
+							</div>
+							<div class="slidecontainer" style="width:30%;">
+								<input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+							</div>
+							<div>
+								<i class="fas fa-expand-alt"></i>
+							</div>
+					</div>
+				</div>
+			<!-- footer music player......................-->
+		</div>
+	</main>
+
+</body>
+</html>
