@@ -373,8 +373,12 @@ input[type="checkbox"]:checked ~ .latest-release-dropdown {
 		margin-left: 3%;
 /*		border: 2px solid white;*/
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+	}
+
+	.Artist-link{
+		text-decoration: none;
 	}
 	.Artist-containers{
 		width:16%;
